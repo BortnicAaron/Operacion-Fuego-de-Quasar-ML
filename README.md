@@ -47,12 +47,12 @@ Creé una API REST, pero no pude hostear esa API en un cloud computing libre, in
 ```
 Consigna lograda. Pueden probarla a través de Postman.
 Para hacerlo, hay cargar con anterioridad los satéllites, con sus nombres y ubicaciones.
-```http://localhost:8080/satellite/createlist```
+Abajo adjunto la secuencia.
 ```
+<img src="https://github.com/BortnicAaron/Operacion-Fuego-de-Quasar-ML/blob/main/static/f2.png"><img>
+<img src="https://github.com/BortnicAaron/Operacion-Fuego-de-Quasar-ML/blob/main/static/f1.png"><img>
 ```Ubicacion de la ruta: \api\app\routes\topsecret.route.js```
 ```Ubicacion de la controller: \api\app\routes\topsecret.controller.js```
-
-<img src="https://github.com/BortnicAaron/Operacion-Fuego-de-Quasar-ML/blob/main/static/f1.png"><img>
 ##
 ### Nivel 3
 #### Crear el servicio /topsecret_split/ en donde podra recibir en diferentes POST la informacion de cada nave, y si es posible obtener la ubicación de la nave emisora y el mensaje que emite, respetando la misma firma que antes:
