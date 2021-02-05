@@ -1,23 +1,24 @@
 # Operacion-Fuego-de-Quasar-ML
 
-_Proyecto tecnico realizado para entrevista en Mercado-Pago.
+Proyecto tecnico realizado para entrevista en Mercado-Pago.
 
 ## Desafío 🚀
 
 ### Nivel 1:
 #### Crear un programa con las siguientes firmas:
 
-##### // input: distancia al emisor tal cual se recibe en cada satélite.
-##### // output: las coordenadas ‘x’ e ‘y’ del emisor del mensaje.
 ##### func GetLocation(distances ...float32) (x, y float32).
 ```
 Da un ejemplo
 ```
-##### // input: el mensaje tal cual es recibido en cada satélite 
-##### // output: el mensaje tal cual lo genera el emisor del mensaje 
 ##### func GetMessage(messages ...[]string) (msg string)
+```
+Da un ejemplo
+```
 
-Nivel 2
+### Nivel 2
+#### Crear una API REST, hostear esa API en un cloud computing libre y crear el servicio /topsecret/ en donde se pueda obtener la ubicación de
+la nave y el mensaje que emite.
 
 Nivel 3
 
