@@ -13,7 +13,7 @@ No se pudo realizar
 #### func GetMessage(messages ...[]string) (msg string)
 
 ```Ubicacion: api\app\function\secretFunction.js```
-
+##
 ### Nivel 2
 #### Crear una API REST, hostear esa API en un cloud computing libre:
 ```
@@ -24,6 +24,7 @@ Cree una API REST, pero no pude hostear esa API en un cloud computing libre, int
 Da un ejemplo
 ```
 <img><img>
+##
 ### Nivel 3
 #### Crear el servicio /topsecret_split/ en donde podra recibir en diferentes POST la informacion de cada nave, y si es posible obtener la ubicación de la nave emisora y el mensaje que emite, respetando la misma firma que antes:
 ```
