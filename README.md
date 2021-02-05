@@ -41,12 +41,17 @@ No se pudo realizar
 ### Nivel 2
 #### Crear una API REST, hostear esa API en un cloud computing libre:
 ```
-Cree una API REST, pero no pude hostear esa API en un cloud computing libre, intente realizarlo en DigitalOcean.
+Creé una API REST, pero no pude hostear esa API en un cloud computing libre, intenté realizarlo en DigitalOcean(no lo adjunto).
 ```
 #### Crear el servicio /topsecret/ en donde se pueda obtener la ubicación de la nave y el mensaje que emite:
 ```
-Da un ejemplo
+Consigna lograda. Pueden probarla a través de Postman.
+Para hacerlo, hay cargar con anterioridad los satéllites, con sus nombres y ubicaciones.
+```http://localhost:8080/satellite/createlist```
 ```
+```Ubicacion de la ruta: \api\app\routes\topsecret.route.js```
+```Ubicacion de la controller: \api\app\routes\topsecret.controller.js```
+
 <img src="https://github.com/BortnicAaron/Operacion-Fuego-de-Quasar-ML/blob/main/static/f1.png"><img>
 ##
 ### Nivel 3
