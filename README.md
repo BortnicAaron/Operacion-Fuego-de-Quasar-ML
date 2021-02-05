@@ -5,7 +5,7 @@ _Proyecto tecnico realizado para entrevista en Mercado-Pago.
 ## Desafío 🚀
 
 ### Nivel 1:
-_Crear un programa con las siguientes firmas:
+#### Crear un programa con las siguientes firmas:
 
 _// input: distancia al emisor tal cual se recibe en cada satélite.
 _// output: las coordenadas ‘x’ e ‘y’ del emisor del mensaje.
