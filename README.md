@@ -21,15 +21,20 @@ Da un ejemplo
 ```
 Da un ejemplo
 ```
-#### Crear el servicio /topsecret/ en donde se pueda obtener la ubicación de la nave y el mensaje que emite.
+#### Crear el servicio /topsecret/ en donde se pueda obtener la ubicación de la nave y el mensaje que emite:
 ```
 Da un ejemplo
 ```
 ### Nivel 3
-#### Crear el servicio /topsecret_split/ en donde podra recibir en diferentes POST la informacion de cada nave, y si es posible obtener la ubicación de la nave emisora y el mensaje que emite, respetando la misma firma que antes
+#### Crear el servicio /topsecret_split/ en donde podra recibir en diferentes POST la informacion de cada nave, y si es posible obtener la ubicación de la nave emisora y el mensaje que emite, respetando la misma firma que antes:
 ```
 Da un ejemplo
 ```
+#### Tambien el servicio /topsecret_split/ debera poder aceptar GET, en el cual indicara la posición y el mensaje de la nave, en caso que sea posible determinarlo.
+```
+Da un ejemplo
+```
+
 ### Instalación 🔧
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
