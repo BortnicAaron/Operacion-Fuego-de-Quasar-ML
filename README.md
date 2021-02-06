@@ -4,28 +4,21 @@ Proyecto tecnico realizado para entrevista en Mercado-Pago.
 
 ### Instalación 🔧
 
+_Primero_
+
 ```
 clonar el proyecto
 ```
-
+_Después_
 ```
 npm install
 ```
 
-_Y despues_
+_Y por último_
 
 ```
 npm run start
 ```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
 ## Desafío 🚀
 
 ### Nivel 1:
