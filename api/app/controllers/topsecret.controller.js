@@ -10,16 +10,22 @@ exports.topsecret = (satellitesinfo) => {
   }
   //Crea y asocia la informacion recibida con su satelite correspondiente, si es posible.
   const res = CreateAndAssociate(satellitesinfo)
-    .then((x) => {
+    .then(() => {
       return MessageAndLocation();
     })
     .then((r) => {
-     if(r) Transmitter.create({finalMessage:r.message})
-      return r;
-    });
-
-    return res
+     if(r) {
+      return Transmitter.create({finalMessage:r.message})
+      .then((idTrasmitter)=>{
+        Position.create({x:r.x,y:r.y,transmitterId:idTrasmitter.id})
+        return Promise.resolve(r)
+      })
+     }else{
+       return Promise.reject(new Error("No se pudo crear el satelite con su posición"))
+     }
+    })
     
+    return res
 };
 
 exports.topsecretSplit = (satellite_name,distance,message) => {
@@ -74,7 +80,7 @@ function CreateAndAssociate(satellitesinf) {
 })
 
 
-  let asd = Promise.all(satellitesPromise)
+  let resPromise = Promise.all(satellitesPromise)
   .then((satellites)=>{
     return satellites.map((satellite) => {
       const body = {
@@ -91,11 +97,11 @@ function CreateAndAssociate(satellitesinf) {
       }
     });
   })
-  .then((asd2)=>{
-   return  Promise.all(asd2)
+  .then((r)=>{
+   return  Promise.all(r)
   })
   
-  return asd
+  return resPromise
 }
 
 
@@ -119,6 +125,6 @@ function MessageAndLocation() {
     let position =  {x:500,y:-200}//----
     
     if(!message.length) return Promise.reject(new Error('No se pudo completar el mensaje'))
-    return {message:message,position:position};
+    return {message:message,...position};
   });
 }
