@@ -37,7 +37,7 @@ No pude realizarlo. No encontré la solución al problema.
 ```
 Consigna lograda. Dejo la ubicacion de la función. 
 ```
-```Ubicacion: api\app\function\secretFunction.js```
+```Ubicación: api\app\function\secretFunction.js```
 ##
 ### Nivel 2
 #### Crear una API REST, hostear esa API en un cloud computing libre:
