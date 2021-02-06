@@ -9,7 +9,7 @@ module.exports = (sequelize, Sequelize) => {
       type: DataTypes.DOUBLE
     }
   }, {
-    // Other model options go here
+
   });
   
   return Position;

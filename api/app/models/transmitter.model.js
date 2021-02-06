@@ -6,7 +6,7 @@ module.exports = (sequelize, Sequelize) => {
       type: DataTypes.STRING
     },
   }, {
-    // Other model options go here
+
   });
   
   return Transmitter;

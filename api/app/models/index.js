@@ -7,29 +7,29 @@ const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
   host: dbConfig.HOST,
   dialect: dbConfig.dialect,
   operatorsAliases: false,
-  logging: false, // set to console.log to see the raw SQL queries
-  native: false, // lets Sequelize know we can use pg-native for ~30% more speed
+  logging: false, 
+  native: false, 
   pool: {
     max: dbConfig.pool.max,
     min: dbConfig.pool.min,
     acquire: dbConfig.pool.acquire,
-    idle: dbConfig.pool.idle
-  }
+    idle: dbConfig.pool.idle,
+  },
 });
-
 
 const db = {};
 
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
+["Satellite", "SatelliteInf", "Position", "Transmitter"].forEach((ele) => {
+  db[ele] = require(`./${ele[0].toLowerCase() + ele.slice(1)}.model.js`)(
+    sequelize,
+    Sequelize
+  );
+});
 
-["Satellite","SatelliteInf","Position","Transmitter"].forEach((ele)=>{
-  db[ele] = require(`./${ele[0].toLowerCase() + ele.slice(1)}.model.js`)(sequelize, Sequelize);
-})
-
-
-const { satellite,position,transmitter, satelliteinf } = db.sequelize.models;
+const { satellite, position, transmitter, satelliteinf } = db.sequelize.models;
 
 satellite.hasOne(position);
 
