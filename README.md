@@ -68,7 +68,7 @@ Abajo adjunto la secuencia.
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+_Node.js Express & PostgreSQL Sequelize_
 
 
 
