@@ -4,18 +4,18 @@ Proyecto tecnico realizado para entrevista en Mercado-Pago.
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
 ```
-Da un ejemplo
+clonar el proyecto
 ```
 
-_Y repite_
+```
+npm install
+```
+
+_Y despues_
 
 ```
-hasta finalizar
+npm run start
 ```
 
 _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
