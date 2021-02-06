@@ -62,6 +62,10 @@ Para hacerlo, hay que cargar con anterioridad los satéllites, con sus nombres y
 Abajo adjunto la secuencia.
 ```
 <img src="https://github.com/BortnicAaron/Operacion-Fuego-de-Quasar-ML/blob/main/static/f4.png"><img>
+## UML
+
+<img src="https://github.com/BortnicAaron/Operacion-Fuego-de-Quasar-ML/blob/main/static/UML.png"><img>
+
 ## Construido con 🛠️
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
