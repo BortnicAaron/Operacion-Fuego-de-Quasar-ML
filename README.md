@@ -9,11 +9,10 @@ _Primero_
 ```
 clonar el proyecto
 ```
-_Después_
+_Después dentro de la carpeta api_
 ```
 npm install
 ```
-
 _Y por último_
 
 ```
