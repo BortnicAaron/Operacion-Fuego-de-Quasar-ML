@@ -69,7 +69,7 @@ Consigna lograda. Pueden probarla a través de Postman.
 Para hacerlo, hay que cargar con anterioridad los satéllites, con sus nombres y ubicaciones.
 Abajo adjunto la secuencia.
 ```
-
+<img src="https://github.com/BortnicAaron/Operacion-Fuego-de-Quasar-ML/blob/main/static/f4.png"><img>
 ## Construido con 🛠️
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
